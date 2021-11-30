@@ -22,8 +22,9 @@ function PageHome() {
                     <img class="hero-img" src="./img/Reminder.svg" alt="Main hero image">
                     <div class="hero-text">
                         <h1 class="main-title">TODO for YOU</h1>
-                        <p class="main-description">Simple ToDo Web Design. Create your own ToDo cards. Register and be organized</p>
-                    </div>
+                        <p class="main-description">Simple ToDo Web Design. Create your own ToDo cards. Register and organise Your day!</p>
+                    
+                        </div>
                 </main>
             </body>
 
