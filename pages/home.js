@@ -1,24 +1,30 @@
-import { Footer } from '../components/footer/Footer.js';
-import { Header } from '../components/header/Header.js';
-import { Head } from '../components/head/Head.js';
-
 function PageHome() {
-    const HeaderObj = new Header();
-    const HeaderHTML = HeaderObj.render();
-    const FooterObj = new Footer();
-    const FooterHTML = FooterObj.render();
-    const HeadObj = new Head();
-    const HeadHTML = HeadObj.render();
     return `<!DOCTYPE html>
             <html lang="en">
 
-            
-            ${HeadHTML}
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>ToDo</title>
+                <link rel="stylesheet" href="/css/home.css">
+            </head>
+           
             <body>
-                ${HeaderHTML}
-                <h1>Pagrindinis puslapis</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam velit nisi id culpa, optio rerum. Ullam reiciendis laudantium earum accusamus sed, eius numquam distinctio vitae aliquam incidunt, non rem.</p>
-                ${FooterHTML}
+                <header class="header">
+                    <img class="logo" src="./img/logo.png" alt="TODO logo">
+                    <nav class="meniu">
+                        <a class="link" href="#">Register</a>
+                        <a class="link" href="#">Login</a>
+                    </nav>
+                </header>
+                <main class="content">
+                    <img class="hero-img" src="./img/Reminder.svg" alt="Main hero image">
+                    <div class="hero-text">
+                        <h1 class="main-title">TODO</h1>
+                        <p class="main-description">This is the homepage of TODO App</p>
+                    </div>
+                </main>
             </body>
 
             </html>`;
