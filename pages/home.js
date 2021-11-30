@@ -21,8 +21,8 @@ function PageHome() {
                 <main class="content">
                     <img class="hero-img" src="./img/Reminder.svg" alt="Main hero image">
                     <div class="hero-text">
-                        <h1 class="main-title">TODO</h1>
-                        <p class="main-description">This is the homepage of TODO App</p>
+                        <h1 class="main-title">TODO for YOU</h1>
+                        <p class="main-description">Simple ToDo Web Design. Create your own ToDo cards. Register and be organized</p>
                     </div>
                 </main>
             </body>
