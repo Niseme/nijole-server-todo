@@ -23,7 +23,7 @@ function PageHome() {
                     <div class="hero-text">
                         <h1 class="main-title">TODO for YOU</h1>
                         <p class="main-description">Simple ToDo Web Design. Create your own ToDo cards. Register and organise Your day!</p>
-                    
+                        <button class = "button" >Login</button>
                         </div>
                 </main>
             </body>
