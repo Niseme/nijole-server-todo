@@ -17,14 +17,14 @@ function PageHome() {
                         <a class="link" href="#">Register</a>
                         <a class="link" href="#">Login</a>
                     </nav>
-                </header>
+                </header> 
                 <main class="content">
                     <img class="hero-img" src="./img/Reminder.svg" alt="Main hero image">
                     <div class="hero-text">
                         <h1 class="main-title">TODO for YOU</h1>
                         <p class="main-description">Simple ToDo Web Design. Create your own ToDo cards. Register and organise Your day!</p>
-                        <button class = "button" >Login</button>
-                        </div>
+                        <a class="btn-link" href="#">Login</a>
+                    </div> 
                 </main>
             </body>
 
