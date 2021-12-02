@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 360px;
+  width: 300px;
   gap: 10px;
 }
 .header > .logo {
@@ -31,13 +31,14 @@ body {
   margin-right: 10px;
 }
 .header > .meniu > .link {
+  font-size: 17px;
 }
 .content {
   background-color: rgb(206, 223, 204);
   display: flex;
   justify-content: center;
-  width: 360px;
-  gap: 50px;
+  width: 300px;
+  margin-top: 20px;
 }
 .content > .hero-img {
   width: 50%;
@@ -48,7 +49,6 @@ body {
   flex-direction: column;
   gap: 30px;
   justify-content: center;
-  font-size: 20px;
 }
 .content > .hero-text > .main-title {
   text-align: right;
@@ -57,6 +57,7 @@ body {
 .content > .hero-text > .main-description {
   text-align: center;
   align-self: center;
+  font-size: 18px;
 }
 .content > .hero-text > .btn-link {
   border: 2px solid black;
@@ -65,4 +66,81 @@ body {
   align-self: flex-end;
   padding: 10px 20px;
   margin-right: 10px;
+}
+@media (max-width: 376px) {
+  .header {
+    width: 350px;
+  }
+  .header > .meniu > .link {
+    font-size: 20px;
+  }
+  .content {
+    width: 350px;
+  }
+  .content > .hero-img {
+    width: 50%;
+  }
+  .content > .hero-text > .main-description {
+    font-size: 19px;
+  }
+  .content > .hero-text > .btn-link {
+    font-size: 19px;
+  }
+}
+@media (max-width: 769px) {
+  .header {
+    width: 700px;
+  }
+  .header > .meniu > .link {
+    font-size: 30px;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+  }
+  .content > .hero-img {
+    width: 50%;
+  }
+  .content > .hero-text > .main-title {
+    padding-bottom: 80px;
+  }
+  .content > .hero-text > .main-description {
+    font-size: 30px;
+    padding-bottom: 80px;
+  }
+  .content > .hero-text > .btn-link {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    width: 900px;
+  }
+  .header > .logo{
+    width: 50px;
+  }
+  .header > .meniu > .link {
+    font-size: 40px;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+  }
+  .content > .hero-img {
+    width: 50%;
+  }
+  .content > .hero-text > .main-title {
+    font-size: 60px;
+    padding-bottom: 80px;
+  }
+  .content > .hero-text > .main-description {
+    font-size: 40px;
+    padding-bottom: 80px;
+  }
+  .content > .hero-text > .btn-link {
+    font-size: 35px;
+  }
+}
 }
