@@ -10,10 +10,11 @@ body * {
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   background-color: brown;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
 }
 .header {
   background-color: burlywood;
@@ -22,6 +23,7 @@ body {
   align-items: center;
   width: 300px;
   gap: 10px;
+
 }
 .header > .logo {
   width: 30px;
@@ -69,7 +71,7 @@ body {
   margin-right: 10px;
 }
 
-@media (max-width: 361px) {
+@media (min-width: 361px) {
   body {
   display: flex;
   flex-direction: column;
@@ -82,7 +84,7 @@ body {
   background-color: burlywood;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+   align-items: center; 
   width: 300px;
   gap: 10px;
   }
@@ -132,7 +134,7 @@ body {
   margin-right: 10px;
   }
 }
-@media (max-width: 376px) {
+@media (min-width: 376px) {
   .header {
     width: 350px;
   }
@@ -152,7 +154,7 @@ body {
     font-size: 19px;
   }
 }
-@media (max-width: 769px) {
+@media (min-width: 769px) {
   .header {
     width: 700px;
   }
@@ -178,7 +180,7 @@ body {
     font-size: 30px;
   }
 }
-@media (max-width: 1025px) {
+@media (min-width: 1025px) {
   .header {
     width: 900px;
   }
@@ -186,26 +188,27 @@ body {
     width: 50px;
   }
   .header > .meniu > .link {
-    font-size: 40px;
+    font-size: 30px;
   }
   .content {
     display: flex;
     justify-content: center;
     width: 900px;
+  
   }
   .content > .hero-img {
     width: 50%;
   }
   .content > .hero-text > .main-title {
-    font-size: 60px;
+    font-size: 50px;
     padding-bottom: 80px;
   }
   .content > .hero-text > .main-description {
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 80px;
   }
   .content > .hero-text > .btn-link {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 }
