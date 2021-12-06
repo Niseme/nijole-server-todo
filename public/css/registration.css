@@ -1,0 +1,51 @@
+@import "./3rd_parties/font-awesome.min.css";
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  margin: 0 20px;
+}
+.header > .kalbos {
+  font-size: 20px;
+  color: #8194e1;
+}
+
+.header > .prisijungimai {
+  font-size: 20px;
+  color: #8194e1;
+}
+
+.content {
+  background-color: crimson;
+  min-height: calc(100vh - 90px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content > .logo {
+  background-color: darkgreen;
+  width: 90px;
+}
+.content > .registration {
+  margin: 0 20px;
+  border: 2px solid black;
+  background-color: darkgrey;
+}
+.footer {
+  background-color: darkslateblue;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
