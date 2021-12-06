@@ -27,7 +27,39 @@ function PageHome() {
                 </header> 
                 <main class="content">
                     <img class="logo" src="./img/logo.png" alt="TODO logo">
-                    <div class="registration">Welcome to Registration</div>
+                    <div class="registration">Welcome to Registration
+                        <div class="input">
+                        <input id="name" type="text" placeholder="Name" required>
+                        </div>
+                        <div class="input">
+                        <input id="name" type="text" placeholder="Last Name" required>
+                        </div>
+                        <div class="input">
+                        <input id="name" type="text" placeholder="Date of Birth" required>
+                        </div>
+                        <div class="input">
+                        <input id="name" type="text" placeholder="Select Nationality" required>
+                        </div>
+                        <div class="input">
+                        <input id="name" type="text" placeholder="Male/Female" required>
+                        </div>
+                        <div class="input">
+                        <input id="name" type="text" placeholder="Email Address" required>
+                        </div>
+                        <div class="input">
+                        <input id="name" type="text" placeholder="Password" required>
+                        </div>
+                        <div class="input">
+                        <input id="name" type="text" placeholder="Confirm Password" required>
+                        </div>
+                        <div class="input">
+                        <input id="name" type="text" placeholder="Mobile Number" required>
+                        </div>
+                        <div class="input">
+                        <input id="name" type="text" placeholder="I agree Terms & Conditions" required>
+                        </div>
+                    </div>
+                    <button>Create Account</button>
                 </main>
                 <footer class="footer">All rights reserved 2021</footer>
             </body>
