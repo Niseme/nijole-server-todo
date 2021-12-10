@@ -1,4 +1,4 @@
-function PageHome() {
+function PageRegister() {
     return `<!DOCTYPE html>
             <html lang="en">
 
@@ -27,36 +27,47 @@ function PageHome() {
                 </header> 
                 <main class="content">
                     <img class="logo" src="./img/logo.png" alt="TODO logo">
-                    <div class="registration">Welcome to Registration
+                    <div class="registration borderbox">
+                        <h1>Welcome to Registration</h1>
                         <div class="input">
                         <input id="name" type="text" placeholder="Name" required>
                         </div>
                         <div class="input">
-                        <input id="name" type="text" placeholder="Last Name" required>
+                        <input id="lastname" type="text" placeholder="Last Name" required>
+                        </div>
+
+                        <div class="input">
+                            <input id="birthday" type="date" placeholder="Date of Birth" required>
+                        </div>
+
+                        <div class="input">
+                            <input id="nationality" type="text" placeholder="Select Nationality" required>
+                        </div>
+
+                        <div class="input-gender">
+                            <input id="male-gender" name="gender" type="radio" value="male" required>
+                            <label class="gender">Male</label>
+                            <input id="female-gender" name="gender" type="radio" value="female" required>
+                            <label class="gender">Female</label>
+                        </div>
+
+                        <div class="input">
+                            <input id="email" type="email" placeholder="Email Address" required>
                         </div>
                         <div class="input">
-                        <input id="name" type="text" placeholder="Date of Birth" required>
+                            <input id="pass" type="text" placeholder="Password" required>
                         </div>
                         <div class="input">
-                        <input id="name" type="text" placeholder="Select Nationality" required>
+                            <input id="confirm-pass" type="text" placeholder="Confirm Password" required>
                         </div>
+
                         <div class="input">
-                        <input id="name" type="text" placeholder="Male/Female" required>
+                            <input id="number" type="tel" placeholder="Mobile Number" required>
                         </div>
+
                         <div class="input">
-                        <input id="name" type="text" placeholder="Email Address" required>
-                        </div>
-                        <div class="input">
-                        <input id="name" type="text" placeholder="Password" required>
-                        </div>
-                        <div class="input">
-                        <input id="name" type="text" placeholder="Confirm Password" required>
-                        </div>
-                        <div class="input">
-                        <input id="name" type="text" placeholder="Mobile Number" required>
-                        </div>
-                        <div class="input">
-                        <input id="name" type="text" placeholder="I agree Terms & Conditions" required>
+                        <input id="termsandcond" type="checkbox" value="termsandcond" required>
+                        <label for="termsandcond"> I agree with terms and conditions </label>
                         </div>
                     </div>
                     <button>Create Account</button>
@@ -67,4 +78,4 @@ function PageHome() {
             </html>`;
 }
 
-export { PageHome };
+export { PageRegister };

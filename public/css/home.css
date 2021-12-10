@@ -22,7 +22,8 @@ body {
   align-items: center;
   width: 300px;
   gap: 10px;
-
+  position: fixed;
+  top: 10px;
 }
 .header > .logo {
   width: 30px;
@@ -72,63 +73,59 @@ body {
 
 @media (min-width: 361px) {
   body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
   }
   .header {
-  display: flex;
-  justify-content: flex-end;
-   align-items: center; 
-  width: 300px;
-  gap: 10px;
+    width: 300px;
   }
   .header > .logo {
-  width: 30px;
+    width: 30px;
   }
   .header > .meniu {
-  display: flex;
-  gap: 10px;
-  margin-right: 10px;
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
   }
   .header > .meniu > .link {
-  font-size: 17px;
+    font-size: 17px;
   }
   .content {
-  background-color: rgb(206, 223, 204);
-  display: flex;
-  justify-content: center;
-  width: 300px;
-  margin-top: 20px;
+    background-color: rgb(206, 223, 204);
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-top: 20px;
   }
   .content > .hero-img {
-  width: 50%;
+    width: 50%;
   }
   .content > .hero-text {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  justify-content: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
   }
   .content > .hero-text > .main-title {
-  text-align: right;
-  margin-right: 10px;
+    text-align: right;
+    margin-right: 10px;
   }
   .content > .hero-text > .main-description {
-  text-align: center;
-  align-self: center;
-  font-size: 18px;
+    text-align: center;
+    align-self: center;
+    font-size: 18px;
   }
   .content > .hero-text > .btn-link {
-  border: 2px solid black;
-  border-radius: 8px;
-  text-align: right;
-  align-self: flex-end;
-  padding: 10px 20px;
-  margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: right;
+    align-self: flex-end;
+    padding: 10px 20px;
+    margin-right: 10px;
   }
 }
 @media (min-width: 376px) {
@@ -181,7 +178,7 @@ body {
   .header {
     width: 900px;
   }
-  .header > .logo{
+  .header > .logo {
     width: 50px;
   }
   .header > .meniu > .link {
@@ -191,7 +188,6 @@ body {
     display: flex;
     justify-content: center;
     width: 900px;
-  
   }
   .content > .hero-img {
     width: 50%;
@@ -207,5 +203,4 @@ body {
   .content > .hero-text > .btn-link {
     font-size: 30px;
   }
-}
 }

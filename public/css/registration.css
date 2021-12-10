@@ -37,24 +37,61 @@ body * {
   width: 70px;
   margin-top: 8px;
 }
+
 .content > .registration {
-  margin: 0 20px;
-  border: 2px solid black;
-  border-radius: 8px;
-  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 25px;
+  font-size: 24px;
   gap: 15px;
 }
+.content > .borderbox {
+  border-left: dashed;
+  max-height: 50%;
+  padding: 9px;
+}
+
 .content > .registration > .input {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.content > .registration > .input input[type="date"] {
+  width: 100%;
+  color: gray;
+}
+
+.content > .registration > .input-gender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.content > .registration > .input-gender > .gender {
+  font-size: 20px;
+  color: gray;
+  margin-right: 30px;
+}
+.content > .registration > .input input[type="email"] {
+  width: 100%;
 }
 .content > .registration > .input input {
   background-color: aqua;
   font-size: 20px;
+}
+.content > .registration > .input input[type="text"] {
+  width: 100%;
+}
+.content > .registration > .input input[type="tel"] {
+  width: 100%;
+}
+.content > .registration > .input label[for="termsandcond"] {
+  color: gray;
+  font-size: 20px;
+  margin-left: 10px;
 }
 button {
   font-size: 25px;
