@@ -46,9 +46,28 @@ body * {
   font-size: 24px;
   gap: 15px;
 }
+
 .content > .borderbox {
+  position: relative;
+  /* content: "";
+  display: flex;
+  justify-content: left;
+  align-items: left;
   border-left: dashed;
   height: 50%;
+  padding: 9px; */
+}
+.content > .borderbox::after {
+  position: absolute;
+  display: flex;
+  content: "";
+  left: -20px;
+  right: -20px;
+  top: 30px;
+  border-left: dashed;
+  border-right: dashed;
+  border-bottom: dashed;
+  height: 90%;
   padding: 9px;
 }
 
